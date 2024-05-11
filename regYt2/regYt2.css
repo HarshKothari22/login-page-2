@@ -1,0 +1,36 @@
+body {
+    background-image: url(images/background2.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.form {
+    width: 320px;
+    color: white;
+    border-radius: 8px;
+    padding: 30px 40px;
+    border: none;
+    background-image: url(images/background2.jpg);
+    background-size: cover;
+    backdrop-filter: blur(20px);
+
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+.form-control input {
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+}
+span{
+    color: red;
+    font-size: 14px;
+    
+}
